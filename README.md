@@ -1,4 +1,5 @@
 Project Overview
+The Diia API SDK includes integration for the following scenarios: Diia.Signature, Sharing.
 
 The Diia API SDK allows developers to integrate with the Diia digital services platform for functionalities like document signing and sharing. This SDK enables:
 - Authentication to securely access API.
