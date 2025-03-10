@@ -223,7 +223,7 @@ class DiiaAPI
     }
     
     
-    public function getDeepinkSharingLink($branchId, $offerId, $returnLink, $requestId, $useDiiaId): string
+    public function getDeeplinkSharingLink($branchId, $offerId, $returnLink, $requestId, $useDiiaId): string
     {
         $this->validateBranchId($branchId);
         $this->validateOfferId($offerId);
