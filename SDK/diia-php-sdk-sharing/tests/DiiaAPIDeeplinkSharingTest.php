@@ -11,7 +11,7 @@ class DiiaAPIDeeplinkSharingTest extends TestCase
         $this->diiaAPI = TestsHelper::getInstanceOfDiiaAPI();
     }
 
-    public function testDeepinkSharing(): void
+    public function testDeeplinkSharing(): void
     {
         $branchId = 'Branch_Id'; // Branch Identifier
         $offerId = 'Offer_Id'; // Offer Identifier
@@ -20,7 +20,7 @@ class DiiaAPIDeeplinkSharingTest extends TestCase
         $useDiiaId = true; // User's signature
     
         try {
-            $deeplink = $this->diiaAPI->getDeepinkSharingLink($branchId, $offerId, $returnLink, $requestId, $useDiiaId);
+            $deeplink = $this->diiaAPI->getDeeplinkSharingLink($branchId, $offerId, $returnLink, $requestId, $useDiiaId);
             $this->assertNotEmpty($deeplink, 'Deeplink was not obtained.');
             echo "Obtained deeplink: $deeplink" . PHP_EOL;
         } catch (Exception $e) {
